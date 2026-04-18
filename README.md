@@ -13,6 +13,8 @@ An end-to-end AI-powered job hunting automation workflow built with n8n, Groq LL
 
 ## Architecture
 
+![Workflow Preview](assets/workflow-preview.png)
+
 Form Trigger → PDF Extraction → Data Preparation → Adzuna Job Search (HTTP) → LLM Agent (Groq LLaMA 3.3-70b) → JSON Parser → HTML Email Builder → Gmail Send
 
 ## Tech Stack
