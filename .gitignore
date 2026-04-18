@@ -18,3 +18,8 @@ npm-debug.log
 # Credentials - never commit these
 *credentials*
 *secrets*
+
+*.workflow.ts
+.n8n-state.json
+n8n-workflows.d.ts
+tsconfig.json
